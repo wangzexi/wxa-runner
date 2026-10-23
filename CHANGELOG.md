@@ -1,5 +1,17 @@
 # 更新日志
 
+## [0.8.0](https://github.com/open-wxa/wxa-runner/compare/v0.7.0...v0.8.0) (2026-10-23)
+
+
+### 新功能
+
+* 报错转发到终端，默认端口被占用时自动换端口，--host 开放局域网访问 ([#65](https://github.com/open-wxa/wxa-runner/issues/65)) ([e189f98](https://github.com/open-wxa/wxa-runner/commit/e189f98478a3acd5f5424cb03448c54172da6f8d))
+
+
+### 问题修复
+
+* 在低于 18 的 Node.js 上运行命令行时直接退出，说明要求的版本和怎么切换 ([#66](https://github.com/open-wxa/wxa-runner/issues/66)) ([45edad9](https://github.com/open-wxa/wxa-runner/commit/45edad9d988a878e5c3e80c4947720400178ac63))
+
 ## [0.7.0](https://github.com/open-wxa/wxa-runner/compare/v0.6.0...v0.7.0) (2026-10-22)
 
 
